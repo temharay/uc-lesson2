@@ -37,7 +37,6 @@ import {filterImageFromURL, deleteLocalFiles, isValidURL } from './util/util';
       return res.status(408).send('Request timed out. Are you sure the image exists')
     });
     const { image_url } = req.query;
-    console.log(image_url)
     if ( isValidURL(image_url)){
       const localPathFile = await filterImageFromURL(image_url);
       res.sendFile(localPathFile);
