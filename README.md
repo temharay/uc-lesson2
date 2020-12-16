@@ -8,7 +8,7 @@ run the following command to install libraries
 
         npm install
 
-### run server
+### run server dev
 
 to run the server, issue the following command on your terminal
 
@@ -18,6 +18,6 @@ to run the server, issue the following command on your terminal
 
 to filter an image, call the api in the following way from your browser or post man:
 
-http://www.url.com/filteredimage?image_url=https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg
+http://uc-lesson2-project-dev.eba-uutw2dvf.us-east-2.elasticbeanstalk.com/filteredimage?image_url=https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg
 
 image_url must be provided. Note that there is a timeout of 1 minute.
